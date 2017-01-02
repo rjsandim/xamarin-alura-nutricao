@@ -10,7 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AluraNutricaoPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\CadastroRefeicao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -21,9 +20,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)AluraNutricaoPage.xaml.cs">
-      <DependentUpon>AluraNutricaoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Data\RefeicaoDAO.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\ISqlite.cs" />
